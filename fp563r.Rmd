@@ -1,0 +1,22 @@
+---
+title: "fp563r"
+author: "Brooke Hanson"
+date: "2023-05-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is my final project for Botany 563. I have been struggling with some basics, but I am trying my best to get back up to speed. My data is from NBCI's genebank.
+
+I began by attempting to align five whole genomes of different Lasioglossum species, but after two days of aligning I decided that I should work with a different data set. I am now working with just three mitochondrial sequences from different Apis species. I was able to align these ones much quicker, and I used the following code to do so: 
+
+ clustalw2 -ALIGN -INFILE=apis-mito -OUTFILE=apis-mito-align -OUTPUT=FASTA
+ 
+ I now have a new file in my gene-data folder. I am not able to make sense of the data in the folder, but hopefully some of the programs that we learned in this class can help me.
+ 
+ I am still struggling with using git and how to make changes in the right places. I am using this to document everything, but it may not show up in git. I am going to ignore git for now, but hopefully I can keep everything safe here.
+ 
+ 
